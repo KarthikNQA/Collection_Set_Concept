@@ -1,0 +1,26 @@
+import java.util.HashSet;
+
+public class Collection_Set{
+ 
+ public static void main(String[] args) {
+ 
+ Hashset<String> hset = new HashSet<String>();
+ hset.add("A");
+ hset.add("B");
+ hset.add("C");
+ hset.add("D");
+ hset.add("D");
+ hset.add(null);
+ hset.add(null);
+ system.out.println(hset);
+ 
+ Iterator<String> itr = hset.iterator();
+ 
+ for (Iterator<String> itr1 = hset.iterator();itr1.hasNext();)
+ {
+ system.out.println("data" + itr1.next());
+ }
+ }
+ }
+ 
+ 
